@@ -1,0 +1,89 @@
+body {
+  background-color: #000000;
+  font-family:      Georgia, "Times New Roman", Times, serif;
+  font-size:        medium;
+  margin:	        0px;
+}
+header.top {
+  background-color: #3399CC;
+  margin: 10px 10px 0px 10px;
+  height:           230px;
+}
+header.top img#headerlogo {
+  float: left;
+}
+h1.logo{
+  text-align: center;
+  font-style: oblique;
+  padding: 90px;
+  color: white;
+  font-size: 40px;
+}
+.vertical-menu {
+  float: left;
+  width: 200px;
+}
+.vertical-menu div{
+  display: block;
+  width:100%;
+  height:auto;
+  margin:0px;
+  padding:0px;
+  list-style:none;
+  position:relative;
+}
+.vertical-menu div li {
+  display:block; 
+  width:100%;
+  height:auto;
+  position:relative;
+}
+
+/*https://help-wp.ru/vertikalnoe-vypadayushhee-menu/ */
+
+.vertical-menu a {
+  background-color: #eee;
+  color: black;
+  display: block;
+  padding: 12px;
+  margin: 10px;
+  text-decoration: none;
+}
+.vertical-menu a:hover {
+  background: #3399CC; 
+}
+.vertical-menu a.active {
+  background-color: #3399CC;
+  color: white;
+}
+div#tableContainer {
+	display: table;
+	border-spacing: 10px;
+}
+div#tableRow{
+	display: table-row;
+}
+section#main{
+	display: table-cell;
+	background:	  white;
+	font-size:        105%;	
+        float: 		  right;
+	padding:	  15px;
+	vertical-align: top;
+}
+aside {
+	display: table-cell;
+	background:	  #efe5d0;
+	font-size:        105%;
+	float: 		  right;
+	padding:	  15px;
+	vertical-align: top;
+}
+footer {
+	background: #3399CC;
+	color:      black;
+	text-align: center;
+	padding:    15px;
+	margin: 0px 10px 10px 10px;
+        font-size:	  90%;
+}
